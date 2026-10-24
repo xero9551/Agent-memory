@@ -1,0 +1,9 @@
+project:
+  name: agent-memory-boundary-poc
+  read_only_review: true
+  files:
+    - path: src/app.py
+      type: source
+    - path: .agent/memory.md
+      type: repository_local_notes
+      example_content: REPO_MEMORY_BOUNDARY_POC_2026
